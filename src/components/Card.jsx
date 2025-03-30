@@ -14,12 +14,20 @@ export default function Card() {
   const sumJoke = joke + badjoke;
 
   const [chacknorisJoke, setcChacknorisJoke] = useState("");
+  const [loading, setLoading] = useState(false);
 
   function chacknorishJokeApi() {
+    setLoading(true);
     fetch("https://api.chucknorris.io/jokes/random")
       .then((response) => response.json())
-      .then((data) => setcChacknorisJoke(data.value))
-      .catch(console.error(error));
+      .then((data) => {
+        setcChacknorisJoke(data.value);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setLoading(false);
+      });
   }
   return (
     <div>
