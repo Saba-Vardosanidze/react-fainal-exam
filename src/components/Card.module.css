@@ -1,0 +1,176 @@
+.cardContainer {
+  width: 900px;
+  height: 450px;
+  background-color: #ffac1c9d;
+  border: 3px solid #cd7f32;
+  border-radius: 12px;
+  margin: 154px auto;
+  box-shadow: rgba(167, 169, 170, 0.12) 0px 2px 4px 0px,
+    rgba(156, 163, 167, 0.32) 0px 2px 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.leftSideContainer {
+  width: 300px;
+  height: 400px;
+  background-color: #fbcfb1c4;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.459);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jokeContainer {
+  width: 260px;
+  height: 300px;
+  background-color: #ffd580;
+  border-radius: 12px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jokeContainer p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 20px;
+  width: 200px;
+  font-weight: 600;
+  color: rgb(83, 79, 79);
+}
+.profileShownButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px #2980b9;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  margin-top: 15px;
+}
+
+.profileShownButton:active {
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(2px);
+}
+.jokeRateContainer {
+  width: 570px;
+  height: 400px;
+  background-color: #fbcfb1c4;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.459);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.goodAndBadJokeContainer {
+  width: 530px;
+  height: 300px;
+  background-color: #ffd580;
+  border-radius: 12px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.goodAndBadButton {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+.goodJoke {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px #27ae60;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  width: 143px;
+}
+.goodJoke:active {
+  box-shadow: 0 2px #27ae60;
+  transform: translateY(2px);
+}
+.badAndGoodSUm {
+  width: 143px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.badJoke {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px #c0392b;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+.badJoke:active {
+  box-shadow: 0 2px #c0392b;
+  transform: translateY(2px);
+}
+.badJokeSum {
+  width: 45%;
+  height: 275px;
+  background-color: #ffdead;
+  border-radius: 12px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.sum {
+  width: 85%;
+  height: 50px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sum p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.badJokeImage {
+  height: 180px;
+  width: 90%;
+  font-weight: 700;
+}
+.goodJokeSum {
+  width: 45%;
+  height: 275px;
+  background-color: #ffdead;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid green;
+}
