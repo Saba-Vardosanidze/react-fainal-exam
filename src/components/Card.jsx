@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import styles from "./Card.module.css";
 import disslike from "/src/assets/dislike.png";
 import like from "/src/assets/Like.png";
